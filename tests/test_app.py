@@ -1,4 +1,4 @@
-from app.app import say_hello
+from app import say_hello
 
 
 def test_app(capsys):
