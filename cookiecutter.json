@@ -1,0 +1,11 @@
+{
+    "full_name": "Your Name",
+    "email": "you@example.com",
+    "project_name": "Project Name",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "project_description": "",
+    "version": "0.1.0",
+    "git_init": "y",
+    "poetry_install": "y",
+    "pre_commit_install": "y"
+}
