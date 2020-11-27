@@ -1,6 +1,5 @@
 import os
 
-
 if "{{ cookiecutter.git_init }}" == "y":
     os.system("git init")
 
